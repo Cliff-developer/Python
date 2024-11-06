@@ -1,8 +1,10 @@
-number = 5
-name = "Clifford Ochieng"
-gender = "male"
-print (name, number, gender)
 
-langauages = ["Dart","Python","Web", 5 , True]
-print(langauages)
-print(langauages [2])
+Name = input("What is your name? ")
+Age = input("How old are you? ")
+Location = input("Where are you from? ")
+
+# Convert Age to an integer
+Age = int(Age)
+
+# Print the personalized message
+print(f"My name is {Name}, I am {Age} years old and I live in {Location}.")
